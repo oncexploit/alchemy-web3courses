@@ -1,4 +1,2 @@
-run = "cowsay Configure me!"
-
-[nix]
-channel = "stable-22_11"
+run = "npm --prefix ./buyabcacoffee-dapp run dev"
+entrypoint = './buyabcacoffee-dapp/pages/index.jsx'
